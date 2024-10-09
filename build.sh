@@ -33,9 +33,9 @@ PACKAGES="$PACKAGES luci-proto-wireguard"
 # frp 和 nps 内网穿透
 PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 # wol
-PACKAGES="$PACKAGES luci-app-luci-i18n-wol-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 # ddns
-PACKAGES="$PACKAGES luci-app-luci-ddns-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 
