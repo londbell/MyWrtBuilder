@@ -26,8 +26,18 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 # Passwall 代理
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# Singbox 代理
+PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+# wireguard
+PACKAGES="$PACKAGES luci-proto-wireguard"
 # frp 和 nps 内网穿透
 PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
+# wol
+PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
+# ddns
+PACKAGES="$PACKAGES luci-i18n-ddns-zh-cn"
+# upnp
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 
 # 常用的网络存储组件
 
@@ -35,10 +45,6 @@ PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 PACKAGES="$PACKAGES luci-app-fileassistant"
 # 硬盘休眠
 PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
-# p910nd 打印服务器
-PACKAGES="$PACKAGES luci-i18n-p910nd-zh-cn"
-# GoWebDav
-PACKAGES="$PACKAGES luci-i18n-gowebdav-zh-cn"
 # Samba 网络共享
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # qBittorrent 下载器
@@ -51,21 +57,10 @@ PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 # Docker 组件
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
 
-# VPN 类
-
-# IPSec VPN
-PACKAGES="$PACKAGES luci-i18n-ipsec-vpnd-zh-cn"
-# Zerotier
-PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
-
 # 网络组件
 
 # EQoS 网速控制
 PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
-# 多线多拨与负载均衡
-PACKAGES="$PACKAGES luci-app-syncdial luci-i18n-mwan3-zh-cn"
-# 宽带监控 Nlbwmon
-PACKAGES="$PACKAGES luci-i18n-nlbwmon-zh-cn"
 
 # 界面翻译补全
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
@@ -74,10 +69,12 @@ PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall
 PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
 
 # 一些自己需要的内核组件
-PACKAGES="$PACKAGES kmod-usb-printer kmod-lp"
+PACKAGES="$PACKAGES kmod-wireguard"
 
 # 一些其他可能有用的包
 
+# ttyd
+PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn "
 # zsh 终端
 PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
