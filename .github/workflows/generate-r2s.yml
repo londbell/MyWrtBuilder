@@ -21,7 +21,7 @@ env:
   VENDOR: immortalwrt
   VERSION: 23.05.4
   IMAGE_BUILDER_PATH: $VENDOR-imagebuilder-$VERSION-rockchip-armv8.Linux-x86_64
-
+  IMAGE_BUILDER_PATH: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-rockchip-armv8.Linux-x86_64
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
