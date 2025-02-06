@@ -3,7 +3,7 @@
 echo "Start Builder Patch !"
 echo "Current Path: $PWD"
 
-cd $GITHUB_WORKSPACE/$VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64 || exit
+cd $GITHUB_WORKSPACE/$IMAGE_BUILDER_PATH || exit
 
 # Remove redundant default packages
 sed -i "/luci-app-cpufreq/d" include/target.mk
