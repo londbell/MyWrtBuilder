@@ -21,6 +21,7 @@ env:
   VENDOR: immortalwrt
   VERSION: 24.10.0
   PLATFORM: x86-64
+  PROFILE: generic
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
