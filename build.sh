@@ -41,8 +41,8 @@ PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 
 # 常用的网络存储组件
 
-# 文件助手
-PACKAGES="$PACKAGES luci-app-fileassistant"
+# 文件助手(24.10.0 update)
+PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
 # 硬盘休眠
 PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 # Samba 网络共享
@@ -62,8 +62,8 @@ PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
 # EQoS 网速控制
 PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
 
-# 界面翻译补全
-PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
+# 界面翻译补全 （24.10 opkg update）
+PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
 
 # Packages 文件夹下的 ipk 包
 PACKAGES="$PACKAGES luci-i18n-wrtbwmon-zh-cn"
