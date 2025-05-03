@@ -19,7 +19,7 @@ on:
 env:
   DOWNLOAD_BASE: https://downloads.immortalwrt.org
   VENDOR: immortalwrt
-  VERSION: 24.10.0
+  VERSION: 24.10.1
   PLATFORM: rockchip-armv8
   PROFILE: friendlyarm_nanopi-r2s
 
@@ -65,6 +65,7 @@ jobs:
           bash scripts/builder-patch.sh
           bash scripts/clash.sh
           bash scripts/zsh.sh
+          bash scripts/r2s/optimize.sh
 
       - name: Generate Firmware
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-rockchip-armv8.Linux-x86_64

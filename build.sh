@@ -44,15 +44,15 @@ PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 # 文件助手(24.10.0 update)
 PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
 # 硬盘休眠
-PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 # Samba 网络共享
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # qBittorrent 下载器
-PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-qbittorrent-zh-cn"
 # Aria2 下载器
-PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-aria2-zh-cn"
 # FTP 服务器
-PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 
 # Docker 组件
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
@@ -60,7 +60,7 @@ PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
 # 网络组件
 
 # EQoS 网速控制
-PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-eqos-zh-cn"
 
 # 界面翻译补全 （24.10 opkg update）
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn"
@@ -74,7 +74,7 @@ PACKAGES="$PACKAGES kmod-wireguard"
 # 一些其他可能有用的包
 
 # ttyd
-PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn "
+PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # zsh 终端
 PACKAGES="$PACKAGES zsh"
 # Vim 完整版，带语法高亮
