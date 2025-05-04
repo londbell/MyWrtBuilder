@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#交换不生效，cat打印结果确实交换了，比较奇怪，先弃用
+
 echo "Start R2S Optimize !"
 echo "Current Path: $PWD"
 
