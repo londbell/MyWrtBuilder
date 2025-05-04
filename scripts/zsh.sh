@@ -16,5 +16,7 @@ git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git $ZS
 cp $ZSH/templates/zshrc.zsh-template $ROOT/.zshrc
 
 sed -i "s/ZSH_THEME=\".\+\"/ZSH_THEME=\"ys\"/" $ROOT/.zshrc
-
 sed -i "s/plugins=.\+/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/" $ROOT/.zshrc
+
+# 关闭更新，否则会因为没有装git一直报错
+sed -i "s/^#\s*\(zstyle ':omz:update' mode disabled\)/\1/" $ROOT/.zshrc
