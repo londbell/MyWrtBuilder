@@ -9,9 +9,11 @@ uci set "dhcp.@domain[-1].name=time.android.com"
 uci set "dhcp.@domain[-1].ip=203.107.6.88"
 
 # 对R2S交换wan口和lan口
-uci set network.wan='eth1'
-uci set network.lan='eth0'
+# uci set network.wan.device='eth1'
+# uci set network.wan6.device='eth1'
 
+
+uci set network.lan.proto='static'
 uci set network.lan.ipaddr='192.168.2.1'
 uci set network.lan.netmask='255.255.255.0'
 
